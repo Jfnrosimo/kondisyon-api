@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 const server = express();
-const port = process.env.RENDER_API || 8099;
+const port = 8099;
 
 //middleWare
 server.use(morgan("dev"));
